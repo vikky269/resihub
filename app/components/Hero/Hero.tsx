@@ -1,5 +1,4 @@
 import React from 'react'
-import Navbar from '../Navbar/Navbar'
 import Image from 'next/image'
 
 const Hero = () => {
