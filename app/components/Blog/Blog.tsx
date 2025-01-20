@@ -4,6 +4,9 @@ import { SimpleBlog } from '@/app/lib/interface'
 import Image from 'next/image'
 import Link from 'next/link'
 
+
+export const revalidate = 30
+
 async function getData() {
     const query = `*[_type == 'blog' ] | order(_createdAt desc){
   title,

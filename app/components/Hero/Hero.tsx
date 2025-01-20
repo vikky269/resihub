@@ -3,7 +3,7 @@ import Image from 'next/image'
 
 const Hero = () => {
   return (
-    <section className='bg-custom-gradient pb-16 lg:flex lg:justify-between lg:px-6 lg:items-center'>
+    <section className='bg-custom-gradient pb-16 lg:flex lg:justify-between px-1 lg:px-6 lg:items-center'>
 
       <div className='mx-4 lg:w-1/2 relative'>
         <div className='hero flex  space-x-3 rounded-full items-center '>
@@ -15,7 +15,7 @@ const Hero = () => {
           <Image src='/cursorclick.png' alt='logo' width={50} height={50} />
         </div>
 
-        <div className='mt-8 lg:mt-4'>
+        <div className='mt-12 lg:mt-4'>
           <h1 className='text'>Where Community Thrives: Deals, Discussions, etc.</h1>
         </div>
 
