@@ -1,21 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
-}
+    @apply font-sans; /* Uses the Poppins font as configured in Tailwind */
+  }
+
+  .hero{
+    @apply  px-3 py-3 bg-custom-purple w-fit bg-opacity-10 font-medium text-custom-purple;
+  }
+
+  .text{
+    @apply text-[#333333] font-semibold text-4xl lg:text-6xl lg:leading-[80px]
+  }
+  .hero-subtext{
+    @apply text-[#1A1A1A] font-normal text-lg leading-7 lg:text-[18px]
+  } 
+  .waitlist{
+    @apply font-normal text-custom-purple leading-6 text-[16px]
+  }
+  .waitlist-form{
+    @apply mt-6 relative flex bg-white w-full space-x-2 border rounded-[10px] border-[#BEBEBE] p-1 lg:max-w-md
+  }
+  .waitlist-input{
+    @apply px-3 py-4 placeholder:text-[#232323] placeholder:text-opacity-60 w-full focus:outline-none
+  }
+  .waitlist-btn{
+    @apply absolute right-1 top-1 px-4 py-4 rounded-[10px] cursor-pointer bg-custom-purple  text-white font-semibold
+  }
+  .feat-text{
+    @apply font-semibold text-2xl lg:text-4xl text-[#1a1a1a] leading-10
+  }
+  .feat-subtext{
+    @apply font-normal text-[#1a1a1a] text-[15px] lg:text-lg leading-9 mt-6 
+  }
+  .feat-card{
+    @apply bg-[#F4F3FF85] bg-opacity-55  rounded-lg cursor-pointer
+  }
+  .checkbox{
+    @apply flex items-center justify-center px-2 py-1 h-12 w-12 rounded-[5px] bg-[#4E45C5] cursor-pointer
+  }
+  .checkbox-parent{
+    @apply flex items-center space-x-3 mt-8
+  }
+  .vector{
+    @apply lg:w-12 lg:h-8 h-4
+  }

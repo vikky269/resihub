@@ -8,11 +8,20 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(180deg, #EEEBFF 100%, #FFFFFF 0%)',
+      },
+      fontFamily: {
+        sans: ['Poppins', 'sans-serif'],
+        roboto: ['Roboto', 'sans-serif'],
+      },    
+        colors: {
+         'custom-purple': '#2E24AF',
+        
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography')
+  ],
 } satisfies Config;
