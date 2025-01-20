@@ -48,5 +48,5 @@ body {
     @apply flex items-center space-x-5 mt-8
   }
   .vector{
-    @apply lg:w-4 lg:h-4 w-8 h-5
+    @apply lg:w-4 lg:h-4 w-[70px] h-[15px]
   }
