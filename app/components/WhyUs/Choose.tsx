@@ -15,25 +15,25 @@ const Choose = () => {
                          <div className='checkbox'>
                                 <img src='/Vector.png' alt='check' className='vector'/>
                          </div>
-                        <span className='font-normal text-[#1a1a1a] text-[15px] lg:text-lg leading-7'>Stay informed about safety alerts and neighborhood events, ensuring you’re always in the loop.</span>
+                        <span className='font-normal text-[#1a1a1a] md:text-sm text-[15px] lg:text-lg leading-7'>Stay informed about safety alerts and neighborhood events, ensuring you’re always in the loop.</span>
                     </div>
-                  <div className='checkbox-parent'>
+                  <div className='checkbox-parent '>
                      <div className='checkbox'>
-                        <img src='/Vector.png' alt='check' className='vector' />
-                     </div>
-                      <span className='font-normal text-[#1a1a1a] text-[15px] lg:text-lg  leading-7'>Build relationships with neighbors and foster a sense of belonging through active discussions and shared experiences.</span>
+                                <img src='/Vector.png' alt='check' className='vector'/>
+                         </div>
+                      <span className='font-normal text-[#1a1a1a] md:text-sm  text-[15px] lg:text-lg  leading-7'>Build relationships with neighbors and foster a sense of belonging through active discussions and shared experiences.</span>
                   </div>
                     <div className='checkbox-parent'>
                         <div className='checkbox'>
                                 <img src='/Vector.png' alt='check' className='vector'/>
                          </div>
-                        <span className='font-normal text-[#1a1a1a] text-[15px] lg:text-lg leading-7'>Simplify communication with property managers and resolve building issues effortlessly, saving time and hassle.</span>
+                        <span className='font-normal text-[#1a1a1a] md:text-sm  text-[15px] lg:text-lg leading-7'>Simplify communication with property managers and resolve building issues effortlessly, saving time and hassle.</span>
                     </div>
                     <div className='checkbox-parent'>
                           <div className='checkbox'>
                                 <img src='/Vector.png' alt='check' className='vector'/>
                          </div>
-                        <span className='font-normal text-[#1a1a1a] text-[15px] lg:text-lg  leading-7'>Access reliable local services and exclusive offers, making daily life easier and more enjoyable.</span>
+                        <span className='font-normal text-[#1a1a1a] md:text-sm  text-[15px] lg:text-lg  leading-7'>Access reliable local services and exclusive offers, making daily life easier and more enjoyable.</span>
                     </div>
                 </div>
           </div>

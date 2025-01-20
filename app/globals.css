@@ -15,7 +15,7 @@ body {
   }
 
   .text{
-    @apply text-[#333333] font-semibold text-4xl lg:text-6xl lg:leading-[80px]
+    @apply text-[#333333] font-semibold text-3xl md:text-4xl lg:text-6xl lg:leading-[80px]
   }
   .hero-subtext{
     @apply text-[#1A1A1A] font-normal text-lg leading-7 lg:text-[18px]
@@ -42,11 +42,11 @@ body {
     @apply bg-[#F4F3FF85] bg-opacity-55  rounded-lg cursor-pointer
   }
   .checkbox{
-    @apply flex items-center justify-center px-2 py-1 h-12 w-12 rounded-[5px] bg-[#4E45C5] cursor-pointer
+    @apply flex items-center justify-center px-1 py-1 h-8 w-8 rounded-[3px] bg-[#4E45C5] cursor-pointer
   }
   .checkbox-parent{
-    @apply flex items-center space-x-3 mt-8
+    @apply flex items-center space-x-5 mt-8
   }
   .vector{
-    @apply lg:w-12 lg:h-8 h-4
+    @apply w-4 h-4
   }
