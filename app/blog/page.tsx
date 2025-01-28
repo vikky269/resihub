@@ -8,7 +8,7 @@ export const revalidate = 30
 
 async function getData() {
   const query = `*[_type == 'blog' ] | order(_createdAt desc){
-title,
+  title,
   smallDescription,
   "currentSlug":slug.current,
   titleImage
