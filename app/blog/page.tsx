@@ -1,5 +1,4 @@
 import React from 'react'
-import Blog from '../components/Blog/Blog'
 import {client, urlFor} from '../lib/sanity'
 import { SimpleBlog } from '@/app/lib/interface'
 import Image from 'next/image'
