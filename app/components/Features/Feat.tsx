@@ -30,7 +30,7 @@ const features: Feature[] = [
 
 const Feat = () => {
   return (
-    <section className='mt-12'>
+    <section className='mt-12 lg:mt-20' id='features'>
       <div className='text-center px-4'>
         <h2 className='feat-text'>Resihub key Features</h2>
         <div className=''>
@@ -47,7 +47,7 @@ const Feat = () => {
         {features.map((feature, index) => (
           <div
             key={index}
-            className="flex flex-col feat-card items-center text-center py-10 px-3"
+            className="flex flex-col feat-card items-center text-center py-10 px-3 transform transition-transform duration-200 ease-in-out hover:translate-y-[-2px] hover:shadow-md"
           >
             <div className="mb-4">
               <img

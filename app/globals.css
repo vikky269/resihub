@@ -24,7 +24,7 @@ body {
     @apply font-normal text-custom-purple leading-6 text-[16px]
   }
   .waitlist-form{
-    @apply mt-6 relative flex bg-white w-full space-x-2 border rounded-[10px] border-[#BEBEBE] p-1 lg:max-w-md
+    @apply mt-6 relative flex bg-white w-full space-x-2 border rounded-[10px] border-[#BEBEBE] p-1 outline-none lg:max-w-md
   }
   .waitlist-input{
     @apply px-3 py-4 placeholder:text-[#232323] placeholder:text-opacity-60 w-full focus:outline-none
@@ -41,12 +41,6 @@ body {
   .feat-card{
     @apply bg-[#F4F3FF85] bg-opacity-55  rounded-lg cursor-pointer
   }
-  .checkbox{
-    @apply flex items-center justify-center lg:p-1 p-2 h-8 w-8 rounded-[3px] bg-[#4E45C5] cursor-pointer
-  }
-  .checkbox-parent{
-    @apply flex items-center space-x-5 mt-8
-  }
-  .vector{
-    @apply lg:w-4 lg:h-4 w-[70px] h-[15px]
-  }
+  
+
+  

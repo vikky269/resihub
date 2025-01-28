@@ -3,10 +3,10 @@ import Image from 'next/image'
 
 const Footer = () => {
   return (
-    <section className='bg-custom-gradient w-full lg:mt-12 mt-6 lg:px-12 px-8 py-12'>
+    <section className='bg-custom-gradient w-full lg:mt-12 mt-6 lg:px-12 px-8 py-12' id='contact'>
           <div className='flex flex-col space-y-6 items-start lg:flex-row lg:justify-between lg:items-center'>
-              <div className='flex flex-col space-y-4 max-w-lg'>
-                  <Image src='/logo.png' alt='' width={110} height={80} className='object-cover' />
+              <div className='flex flex-col max-w-lg'>
+                  <Image src='/resihub2.png' alt='' width={130} height={80} className='object-cover' />
                   <p className='text-[#232323] font-normal text-lg lg:text-xl'>Bringing local residential stakeholders together for a stronger, connected neighborhood.</p>
               </div>
 
