@@ -15,7 +15,8 @@ const Choose = () => {
           {/* First Feature */}
           <div className="flex items-center gap-4">
             <div className="w-6 h-6 flex-shrink-0 bg-custom-purple rounded-md flex items-center justify-center">
-              <img src="/Vector.png" alt="Check" className="w-4 h-4" />
+              {/* <img src="/Vector.png" alt="Check" className="w-4 h-4" /> */}
+              <Image  src="/Vector.png"  alt='check' width={18} height={18}/>
             </div>
             <span className="text-[#1a1a1a] leading-7 text-[15px] md:text-sm xl:text-lg">
               Stay informed about safety alerts and neighborhood events, ensuring you’re always in the loop.
@@ -24,7 +25,8 @@ const Choose = () => {
           {/* Second Feature */}
           <div className="flex items-center gap-4">
             <div className="w-6 h-6 flex-shrink-0 bg-custom-purple rounded-md flex items-center justify-center">
-              <img src="/Vector.png" alt="Check" className="w-4 h-4" />
+              {/* <img src="/Vector.png" alt="Check" className="w-4 h-4" /> */}
+              <Image  src="/Vector.png"  alt='check' width={18} height={18}/>
             </div>
             <span className="text-[#1a1a1a] leading-7 text-[15px] md:text-sm xl:text-lg">
               Build relationships with neighbors and foster a sense of belonging through active discussions and shared experiences.
@@ -33,7 +35,8 @@ const Choose = () => {
           {/* Third Feature */}
           <div className="flex items-center gap-4">
             <div className="w-6 h-6 flex-shrink-0 bg-custom-purple rounded-md flex items-center justify-center">
-              <img src="/Vector.png" alt="Check" className="w-4 h-4" />
+              {/* <img src="/Vector.png" alt="Check" className="w-4 h-4" /> */}
+              <Image  src="/Vector.png"  alt='check' width={18} height={18}/>
             </div>
             <span className="text-[#1a1a1a] leading-7 text-[15px] md:text-sm xl:text-lg">
               Simplify communication with property managers and resolve building issues effortlessly, saving time and hassle.
@@ -42,7 +45,8 @@ const Choose = () => {
           {/* Fourth Feature */}
           <div className="flex items-center gap-4">
             <div className="w-6 h-6 flex-shrink-0 bg-custom-purple rounded-md flex items-center justify-center">
-              <img src="/Vector.png" alt="Check" className="w-4 h-4" />
+              {/* <img src="/Vector.png" alt="Check" className="w-4 h-4" /> */}
+              <Image  src="/Vector.png"  alt='check' width={18} height={18}/>
             </div>
             <span className="text-[#1a1a1a] leading-7 text-[15px] md:text-sm xl:text-lg">
               Access reliable local services and exclusive offers, making daily life easier and more enjoyable.
