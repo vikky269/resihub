@@ -55,7 +55,7 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>): Promise<void> 
               onChange={(e) => setEmail(e.target.value)}
               placeholder="Enter Your Email Address"
               required
-              className="waitlist-input border-none focus:outline-none"
+              className="waitlist-input placeholder:text-sm lg:placeholder:text-lg border-none focus:outline-none"
             />
             <button
               type="submit"
